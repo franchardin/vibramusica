@@ -7,9 +7,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
   <body>
-    <header>
-    	<p>crear un navbar basico con redes</p>
-    </header>
       <div>
         <img src="/img.png">
         </div>
