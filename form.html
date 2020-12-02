@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="images/icon.png">
+	<title>Vibra musica</title>
+</head>
+<body>
+	<header>
+		<nav class="flex c-c break">
+			<a href="index.html"><img id="menu-img" src="images/img.png" alt="inicio"></a>
+			<a href="story.html">¿Qué hacemos?</a>
+			<a href="music.html">Materiales musicales</a>
+			<a href="location.html">Ubicación</a>
+			<a href="contact.html">Contacto</a>
+			<a href="form.html">Anotate!</a>
+		</nav>
+	</header>
+	<main>
+		<h1 class="center a2">Inscripciones abiertas!</h1>
+		<form action="show_data.html" target="_blank">
+		<div>
+			<label for="firstname">Nombre: </label>
+			<input type="text" name="firstname" placeholder="nombre"><br>
+		</div>
+		<div>
+			<label for="lastname">Apellido: </label>
+			<input type="text" name="lastname" placeholder="apellido"><br>
+		</div>
+		<div>
+			<label for="street">Dirección: </label>
+			<input type="text" name="street" placeholder="dirección"><br>
+		</div>
+		<div>
+			<label for="city">Ciudad: </label>
+			<input type="text" name="city" placeholder="ciudad"><br>
+		</div>
+		<div>
+			<label for="zipcode">Código Postal: </label>
+			<input type="text" name="zipcode" placeholder="código postal"><br>
+		</div>
+		<div>
+			<label for="BirthDate">Fecha de Nacimiento (mm/dd/aaaa): </label>
+			<input type="text" name="BirthDate" placeholder="fecha de nacimiento"><br>
+		</div>
+		<div>Género: 
+			<input type="radio" name="gender" value="hombre" checked>Hombre
+			<input type="radio" name="gender" value="mujer">Mujer
+			<input type="radio" name="gender" value="otro">Otrx
+		</div><br>
+		<div>Estudios:
+			<input type="checkbox" name="estudio" value="primarios"> Primarios
+			<input type="checkbox" name="estudio" value="secundarios"> Secundarios
+			<input type="checkbox" name="estudio" value="terciarios"> Terciarios
+			<input type="checkbox" name="estudio" value="universitarios"> Universitarios
+			<input type="checkbox" name="estudio" value="otro"> Otro
+		</div><br>
+		<div class="center">
+			<input class="submit" type="submit" value="Enviar">
+		</div>
+		<br>
+		<br>
+		<p class="center">Si usted hace click en el botón "Enviar" la información será enviada a la página "show:data.html".</p>
+		</form>
+	</main>
+</body>
+<footer>
+	<div class="flex c-c foot">
+		<div><a href="https://www.instagram.com/vibramusica/"><img class="icon" src="images/insta-ico.svg"></a></div>
+		<div><a href="https://www.facebook.com/holavibra.musica"><img class="icon" src="images/fb-ico.svg"></a></div>
+		<div><a href="mailto:holavibramusica@gmail.com"><img class="icon" src="images/env-ico.svg" alt="env-img"></a></div>
+	</div>
+	<div>
+		<p>Francisco G. Chardin ☺ - Todos los derechos reservados 2020.</p>
+	</div>
+</footer>
+</body>
+</html>
